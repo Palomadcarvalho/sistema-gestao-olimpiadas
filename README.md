@@ -33,7 +33,7 @@ US07 – Consulta de Informações
   - Como usuário do sistema, quero visualizar competições, atletas inscritos e resultados, para que eu tenha acesso rápido às informações do evento.
 
 ## DIAGRAMA DE CASO DE USO
-<img width="946" height="687" alt="Diagrama - Caso de Uso - Sistema de Moeda Estudantil" src="https://github.com/user-attachments/assets/da233e11-df65-4937-bb0d-baeb830aab52" />
+<img width="946" height="687" alt="Diagrama - Caso de Uso" src="[https://github.com/user-attachments/assets/da233e11-df65-4937-bb0d-baeb830aab52](https://github.com/Palomadcarvalho/sistema-gestao-olimpiadas/blob/main/Diagramas./01_Diagrama_Caso_Uso.jpg)" />
 
 
 ## DIAGRAMA DE CLASSES + PACOTES
