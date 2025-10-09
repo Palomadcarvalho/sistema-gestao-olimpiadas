@@ -33,9 +33,17 @@ US07 – Consulta de Informações
   - Como usuário do sistema, quero visualizar competições, atletas inscritos e resultados, para que eu tenha acesso rápido às informações do evento.
 
 ## DIAGRAMA DE CASO DE USO
-## DIAGRAMA DE CLASSES
-## DIAGRAMA DE PACOTES
+<img width="946" height="687" alt="Diagrama - Caso de Uso - Sistema de Moeda Estudantil" src="https://github.com/user-attachments/assets/da233e11-df65-4937-bb0d-baeb830aab52" />
+
+
+## DIAGRAMA DE CLASSES + PACOTES
+<img width="946" height="687" alt="Diagrama - Caso de Uso - Sistema de Moeda Estudantil" src="https://github.com/user-attachments/assets/da233e11-df65-4937-bb0d-baeb830aab52" />
+
 ## DIAGRAMA DE IMPLEMENTAÇÃO 
+<img width="946" height="687" alt="Diagrama - Caso de Uso - Sistema de Moeda Estudantil" src="https://github.com/user-attachments/assets/da233e11-df65-4937-bb0d-baeb830aab52" />
+
 ## DIAGRAMA DE COMPONENTES 
+<img width="946" height="687" alt="Diagrama - Caso de Uso - Sistema de Moeda Estudantil" src="https://github.com/user-attachments/assets/da233e11-df65-4937-bb0d-baeb830aab52" />
+
 
 
