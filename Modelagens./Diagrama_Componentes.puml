@@ -1,13 +1,11 @@
 @startuml
 package "Sistema de Gestão das Olimpíadas" {
 
-    ' Camada de Apresentação (View / Interface de Usuário)
     package "Camada de Apresentação (UI)" {
         component "Interface Web" as WebUI
         component "Aplicativo Mobile" as MobileUI
     }
 
-    ' Camada de Controller
     package "Camada de Controller" {
         component "CompeticaoController"
         component "AtletaController"
@@ -16,7 +14,6 @@ package "Sistema de Gestão das Olimpíadas" {
         component "RelatorioController"
     }
 
-    ' Camada de Service (Lógica de Negócio)
     package "Camada de Serviço (Service)" {
         component "CompeticaoService"
         component "AtletaService"
@@ -25,7 +22,6 @@ package "Sistema de Gestão das Olimpíadas" {
         component "RelatorioService"
     }
 
-    ' Camada de Acesso a Dados (DAO / Repository)
     package "Camada de Persistência (DAO / Repository)" {
         component "CompeticaoRepository"
         component "AtletaRepository"
@@ -34,11 +30,9 @@ package "Sistema de Gestão das Olimpíadas" {
         component "PaisRepository"
     }
 
-    ' Banco de Dados
     database "Banco de Dados" as DB
 }
 
-' Conexões entre camadas
 WebUI --> CompeticaoController
 WebUI --> AtletaController
 WebUI --> LocalController
