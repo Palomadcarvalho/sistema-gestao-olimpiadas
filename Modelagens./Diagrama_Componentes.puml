@@ -1,0 +1,71 @@
+@startuml
+package "Sistema de Gestão das Olimpíadas" {
+
+    ' Camada de Apresentação (View / Interface de Usuário)
+    package "Camada de Apresentação (UI)" {
+        component "Interface Web" as WebUI
+        component "Aplicativo Mobile" as MobileUI
+    }
+
+    ' Camada de Controller
+    package "Camada de Controller" {
+        component "CompeticaoController"
+        component "AtletaController"
+        component "LocalController"
+        component "ResultadoController"
+        component "RelatorioController"
+    }
+
+    ' Camada de Service (Lógica de Negócio)
+    package "Camada de Serviço (Service)" {
+        component "CompeticaoService"
+        component "AtletaService"
+        component "LocalService"
+        component "ResultadoService"
+        component "RelatorioService"
+    }
+
+    ' Camada de Acesso a Dados (DAO / Repository)
+    package "Camada de Persistência (DAO / Repository)" {
+        component "CompeticaoRepository"
+        component "AtletaRepository"
+        component "LocalRepository"
+        component "ResultadoRepository"
+        component "PaisRepository"
+    }
+
+    ' Banco de Dados
+    database "Banco de Dados" as DB
+}
+
+' Conexões entre camadas
+WebUI --> CompeticaoController
+WebUI --> AtletaController
+WebUI --> LocalController
+WebUI --> ResultadoController
+WebUI --> RelatorioController
+
+MobileUI --> CompeticaoController
+MobileUI --> AtletaController
+MobileUI --> LocalController
+MobileUI --> ResultadoController
+MobileUI --> RelatorioController
+
+CompeticaoController --> CompeticaoService
+AtletaController --> AtletaService
+LocalController --> LocalService
+ResultadoController --> ResultadoService
+RelatorioController --> RelatorioService
+
+CompeticaoService --> CompeticaoRepository
+AtletaService --> AtletaRepository
+LocalService --> LocalRepository
+ResultadoService --> ResultadoRepository
+RelatorioService --> PaisRepository
+
+CompeticaoRepository --> DB
+AtletaRepository --> DB
+LocalRepository --> DB
+ResultadoRepository --> DB
+PaisRepository --> DB
+@enduml
