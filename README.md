@@ -36,7 +36,7 @@ US07 – Consulta de Informações
 <img width="946" height="687" alt="Diagrama de classes + diagrama de pacotes" src="https://github.com/Palomadcarvalho/sistema-gestao-olimpiadas/blob/main/Diagramas./01_Diagrama_Caso_Uso.jpg" />
 
 ## DIAGRAMA DE CLASSES + PACOTES
-<img width="946" height="687" alt="Diagrama de classes + diagrama de pacotes" src="https://github.com/Palomadcarvalho/sistema-gestao-olimpiadas/blob/main/Diagramas./04_Diagrama_UML_Pacotes.jpg" />
+<img width="946" height="687" alt="Diagrama de classes + diagrama de pacotes" src="https://github.com/Palomadcarvalho/sistema-gestao-olimpiadas/blob/main/Diagramas./02_Diagrama_classes_e_pacote_atualizado.png" />
 
 ## DIAGRAMA DE IMPLEMENTAÇÃO 
 <img width="946" height="687" alt="Diagrama de Implantação" src="https://github.com/Palomadcarvalho/sistema-gestao-olimpiadas/blob/main/Diagramas./03_Diagrama_Implanta%C3%A7%C3%A3o.jpg" />
