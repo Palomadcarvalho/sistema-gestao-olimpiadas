@@ -1,4 +1,4 @@
-# SISTEMA GESTÃO DE OLIMPIADAS 🥇🥈🥉
+# SISTEMA DE GESTÃO DAS OLIMPIADAS 🥇🥈🥉
 O Sistema de Gestão das Olimpíadas (SGO) foi criado para organizar as principais atividades dos Jogos Olímpicos. Ele permite cadastrar competições, inscrever atletas, definir locais das provas, registrar resultados e gerar relatórios de medalhas. Dessa forma, o sistema ajuda a manter o evento bem estruturado, evitando conflitos de horários e garantindo um controle eficiente das informações.
 
 
@@ -32,10 +32,11 @@ US06 – Relatórios de Medalhas
 US07 – Consulta de Informações
   - Como usuário do sistema, quero visualizar competições, atletas inscritos e resultados, para que eu tenha acesso rápido às informações do evento.
 
-## DIAGRAMA DE CASO DE USO
-<img width="946" height="687" alt="Diagrama de classes + diagrama de pacotes" src="https://github.com/Palomadcarvalho/sistema-gestao-olimpiadas/blob/main/Diagramas./01_Diagrama_Caso_Uso.jpg" />
+## [DIAGRAMA DE CASO DE USO](https://github.com/Palomadcarvalho/sistema-gestao-olimpiadas/blob/main/Diagramas./01_Diagrama%20_Caso_de_Uso_Sistema_de_Gest%C3%A3o_das_Olimp%C3%ADadas.png)
+<img width="1071" height="681" alt="image" src="https://github.com/user-attachments/assets/86f5965d-9155-4ed4-9f55-a9c51d6b29ea" />
 
-## DIAGRAMA DE CLASSES + PACOTES
+
+## [DIAGRAMA DE CLASSES + PACOTES](https://github.com/Palomadcarvalho/sistema-gestao-olimpiadas/blob/main/Diagramas./02_Diagrama_classes_e_pacote_atualizado.png)
 <img width="946" height="687" alt="Diagrama de classes + diagrama de pacotes" src="https://github.com/Palomadcarvalho/sistema-gestao-olimpiadas/blob/main/Diagramas./02_Diagrama_classes_e_pacote_atualizado.png" />
 
 ## DIAGRAMA DE IMPLEMENTAÇÃO 
