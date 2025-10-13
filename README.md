@@ -47,7 +47,7 @@ US07 – Consulta de Informações
 ## Tecnologias utilizadas
 Figma 
 
-PlantUml
+PlantUML
 
 
 
