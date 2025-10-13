@@ -1,0 +1,22 @@
+@startuml
+node "Servidor de Aplicação" {
+    component "Interface de Usuário"
+    component "Módulo de Inscrições"
+    component "Módulo de Alocação"
+    component "Módulo de Relatórios"
+}
+
+database "Banco de Dados" as DB
+
+node "Computador do Usuário" {
+    [Navegador Web]
+}
+
+node "Dispositivo Móvel" {
+    [App Mobile]
+}
+
+[Interface de Usuário] --> DB
+[Interface de Usuário] --> [Navegador Web]
+[Interface de Usuário] --> [App Mobile]
+@enduml
