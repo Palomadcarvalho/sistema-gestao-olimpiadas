@@ -1,0 +1,52 @@
+@startuml
+package "Competição" {
+    class Competicao {
+        -nome: String
+        -data: Date
+        -horario: Time
+        -local: Local
+        -atletas: List<Atleta>
+        +adicionarAtleta(a: Atleta)
+        +removerAtleta(a: Atleta)
+    }
+}
+
+package "Atletas" {
+    class Atleta {
+        -nome: String
+        -pais: Pais
+        -competicoes: List<Competicao>
+        +inscreverEm(c: Competicao)
+    }
+    class Pais {
+        -nome: String
+        -medalhas: Map<String, int>
+        +atualizarMedalha(tipo: String)
+    }
+}
+
+package "Locais" {
+    class Local {
+        -nome: String
+        -capacidade: int
+        -ocupadoEm: List<Competicao>
+        +alocarCompeticao(c: Competicao)
+    }
+}
+
+package "Resultados" {
+    class Resultado {
+        -competicao: Competicao
+        -primeiro: Atleta
+        -segundo: Atleta
+        -terceiro: Atleta
+        +registrarResultado(p1: Atleta, p2: Atleta, p3: Atleta)
+    }
+}
+
+Competicao --> Atleta : "1..*"
+Competicao --> Local : "1"
+Resultado --> Competicao : "1"
+Atleta --> Pais : "1"
+Pais --> Resultado : "*"
+@enduml
