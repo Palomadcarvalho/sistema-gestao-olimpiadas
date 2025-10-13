@@ -42,7 +42,7 @@ US07 – Consulta de Informações
 <img width="946" height="687" alt="Diagrama de Implantação" src="https://github.com/Palomadcarvalho/sistema-gestao-olimpiadas/blob/main/Diagramas./03_Diagrama_Implanta%C3%A7%C3%A3o.jpg" />
 
 ## DIAGRAMA DE COMPONENTES 
-<img width="946" height="687" alt="Diagrama de Componentes" src="https://github.com/Palomadcarvalho/sistema-gestao-olimpiadas/blob/main/Diagramas./02_Diagrama_Componentes.jpg" />
+<img width="946" height="687" alt="Diagrama de Componentes" src="https://github.com/Palomadcarvalho/sistema-gestao-olimpiadas/blob/main/Diagramas./03_Diagrama_Componentes.png" />
 
 
 
