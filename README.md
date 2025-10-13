@@ -41,8 +41,8 @@ US07 – Consulta de Informações
 ## [DIAGRAMA DE COMPONENTES](https://github.com/Palomadcarvalho/sistema-gestao-olimpiadas/blob/main/Diagramas./03_Diagrama_Componentes.png)
 <img width="946" height="687" alt="Diagrama de Componentes" src="https://github.com/Palomadcarvalho/sistema-gestao-olimpiadas/blob/main/Diagramas./03_Diagrama_Componentes.png" />
 
-## [DIAGRAMA DE IMPLEMENTAÇÃO](https://github.com/Palomadcarvalho/sistema-gestao-olimpiadas/blob/main/Diagramas./04_Diagrama_UML_Pacotes.jpg)
-<img width="946" height="687" alt="Diagrama de Implantação" src="https://github.com/Palomadcarvalho/sistema-gestao-olimpiadas/blob/main/Diagramas./04_Diagrama_UML_Pacotes.jpg" />
+## [DIAGRAMA DE IMPLEMENTAÇÃO](https://github.com/Palomadcarvalho/sistema-gestao-olimpiadas/blob/main/Diagramas./04_Diagrama_Implantancao.png)
+<img width="946" height="687" alt="Diagrama de Implantação" src="https://github.com/Palomadcarvalho/sistema-gestao-olimpiadas/blob/main/Diagramas./04_Diagrama_Implantancao.png" />
 
 ## Tecnologias utilizadas
 Figma 
